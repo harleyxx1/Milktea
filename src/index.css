@@ -9,19 +9,6 @@ html, body, #root, .App {
   min-width: 500px;
 }
 
-.logoName {
-  font-family: 'Pacifico', cursive;
-}
-
-.menuButtons {
-  font-family: 'Langar', cursive;
-  text-decoration: none;
-}
-
-.menuButtons:hover{
-  border-bottom: 1px solid white;
-}
-
 @font-face {
   font-family: 'ChristmasBell';
   src: local('ChristmasBell'), url(./fonts/ChristmasBell.otf) format('otf');
