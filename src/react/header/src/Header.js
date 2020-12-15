@@ -73,10 +73,10 @@ export default function Header() {
     
     return (
         <div className={headerChanges.headerContainer} style={Styles.headerContainer}>
-            <div className={headerChanges.headerLogoContainer} style={{...Styles.headerLogoNameContainer(windowSize.width), ... windowSize.width < 1200 && {justifyContent: 'start'}}}>
+            <div className={headerChanges.headerLogoContainer} style={{...Styles.headerLogoNameContainer(windowSize.width), ... windowSize.width < 1000 && {justifyContent: 'start'}}}>
                 <p className="logoName" style={Styles.headerLogoName(windowSize.width)}>Milkteahan</p>
             </div>
-            <div className="menuButtonsContainer" style={{...Styles.menuButtonsContainer, ... windowSize.width < 1200 && {display: 'none'}}}>
+            <div className="menuButtonsContainer" style={{...Styles.menuButtonsContainer, ... windowSize.width < 1000 && {display: 'none'}}}>
                 <a className="menuButtons" href="" style={Styles.menuButtons}>About</a>
                 <a className="menuButtons" href="" style={Styles.menuButtons}>Locations</a>
                 <a className="menuButtons" href="" style={Styles.menuButtons}>Menu</a>

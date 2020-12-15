@@ -4,6 +4,7 @@ import { Styles } from './styles';
 
 import WelcomePicture from './WelcomePicture';
 
+
 class HomePage extends Component {
     render() {
         return (

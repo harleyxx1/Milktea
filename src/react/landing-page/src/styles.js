@@ -13,13 +13,16 @@ export const Styles = {
 
     topContainer: {
         width: '100%',
-        height: '100%',
+        height: '100vh',
     },
 
-    welcomePictureContainer: {
-        postion: 'relative', 
-        width: '100%', 
-        maxHeight: '100vh', 
-        overflow: "hidden", 
+    welcomePictureContainer: (isMobile, height) => {
+        return{ 
+            backgroundImage: `url('images/milktea.png')`,
+            height: height,
+            backgroundPosition: isMobile ? 'center': '',
+            backgroundRepeat: 'no-repeat',
+            backgroundAttachment: 'fixed'
+        }
     },  
 }
