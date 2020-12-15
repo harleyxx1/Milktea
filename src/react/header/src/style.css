@@ -1,0 +1,63 @@
+.headerContainer {
+    transition: 0.6s;
+    height: 20vh
+}
+
+.headerContainerScrolled {
+    height: 10vh;
+    background-color: black;
+}
+
+.headerLogoContainer {
+    justify-content: flex-end;
+}
+
+.headerLogoContainerScrolled {
+    justify-content: center;
+}
+
+.loginButtonContainer{
+    justify-content: flex-start;
+}
+
+.loginButtonContainerScrolled{
+    justify-content: center;
+}
+
+.logoName {
+    font-family: 'Dancing Script', cursive;
+}
+  
+.loginButton{
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: 'Rowdies', cursive;
+    text-decoration: none;
+}
+
+.menuButtons {
+    text-decoration: none;
+}
+
+.menuButtons:hover{
+    border-bottom: 1px solid white;
+}
+
+@media (max-width: 800px){
+    .headerContainer{
+        height: 15vh;
+    }
+
+    .headerContainerScrolled {
+        height: 10vh;
+    }
+}
+
+@media (max-width: 1200px){
+    .headerContainer{
+        padding: 0 50px 0 50px;
+    }
+    .loginButtonContainer{
+        justify-content: flex-end;
+    }
+}
